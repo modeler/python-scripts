@@ -27,3 +27,5 @@ for item in range(count):
   os.system(command)
   outputfile.write( astername + ' = ' + newname + '\n')
   gamenumber = gamenumber + 1
+  
+outputfile.close()
